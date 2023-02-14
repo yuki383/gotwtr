@@ -533,7 +533,7 @@ type TweetsUserLikedEntities struct {
 type TweetsUserLikedEntitiesAnnotation struct {
 	Start          int    `json:"start"`
 	End            int    `json:"end"`
-	Probability    int    `json:"probability"`
+	Probability    float64    `json:"probability"`
 	Type           string `json:"type"`
 	NormalizedText string `json:"normalized_text"`
 }
